@@ -8,7 +8,7 @@ import {ImageService} from "../services/image.service";
 })
 export class BrightContrastComponent implements OnInit {
 
-  private contrast: any = 1;
+  private contrast: any = 5;
   private brightness: any = 0;
 
   constructor(private imageService: ImageService) {

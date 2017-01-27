@@ -1,0 +1,5 @@
+<h4>
+  Autocontrast
+</h4>
+
+<input type="checkbox" min="-255" max="255" [(ngModel)]="autocontrast" (change)="this.imageService.applyFilters()">{{ autocontrast }}
